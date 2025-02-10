@@ -1,0 +1,37 @@
+body {
+            background: url('https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png');
+            background-size: cover;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 20px;
+            max-width: 1000px;
+            display: flex;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #fff;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+        }
+        .btn-custom {
+            background-color: darkgreen;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn-custom:hover {
+            background-color: #cc7a00;
+        }
+        footer {
+            margin-top: 20px;
+            color: #ccc;
+        }
